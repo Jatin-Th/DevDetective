@@ -18,7 +18,7 @@ Get started with DevDetective in three simple steps:
 
 1. 🛠 **Clone the Repository:
    ```bash
-   git clone [https://github.com/Jatin-Th/DevDetective.git](https://github.com/Jatin-Th/DevDetective.git)
+   git clone https://github.com/Jatin-Th/DevDetective.git
 
 2. 📂 **Navigate to the Project Directory:
    ```bash
