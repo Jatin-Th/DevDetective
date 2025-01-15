@@ -131,17 +131,16 @@ function LightMode() {
 }
 
 
-// This code checks if the user's device has a preference for dark mode
+// checking if dark mode is on 
 const prefersDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
 
-// Check if there is a value for "dark-mode" in the user's localStorage
+// Check if there is a value for "dark-mode" in localStorage
 if (localStorage.getItem("dark-mode") === null) {
     // If there is no value for "dark-mode" in localStorage, check the device preference
     if (prefersDarkMode) {
-        // If the device preference is for dark mode, apply dark mode properties
+        // If the device preference is for dark mode, apply dark mode
         DarkMode();
     } else {
-        // If the device preference is not for dark mode, apply light mode properties
         LightMode();
     }
 } else {
@@ -150,12 +149,9 @@ if (localStorage.getItem("dark-mode") === null) {
         // If the value is "true", apply dark mode properties
         DarkMode();
     } else {
-        // If the value is not "true", apply light mode properties
         LightMode();
     }
 }
-
-
 
 getUserData(url + "Jatin-Th");
 

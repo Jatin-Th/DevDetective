@@ -42,11 +42,11 @@ Here’s what DevDetective looks like in action:
 
 🏠 Home Page (Default Profile)
 
-   ![alt text](<Screenshot 2025-01-16 001023.png>)
+   ![alt text](<Images/Screenshot 2025-01-16 001010.png>)
 
 🌞 Light Theme
 
-   ![alt text](<Screenshot 2025-01-16 001010.png>)
+   ![alt text](<Images/Screenshot 2025-01-16 001023.png>)
 
 ## Built With 🛠️
 
